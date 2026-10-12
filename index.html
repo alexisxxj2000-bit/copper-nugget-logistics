@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Track a Shipment | Copper Nugget Logistics</title><link rel="stylesheet" href="styles.css"></head>
+<body><header class="top"><div class="brand"><div class="mark">CN</div><div><strong>Copper Nugget Logistics</strong><small>Shipment Tracking</small></div></div><a class="navlink" href="staff.html">Staff sign in</a></header>
+<main class="hero"><div class="eyebrow">RELIABLE DELIVERY • CLEAR UPDATES</div><h1>Track your shipment.</h1><p class="intro">Enter the tracking number provided by Copper Nugget Logistics to view the latest shipment status.</p>
+<form id="track-form" class="track-form"><label for="tracking-number">Tracking number</label><div class="form-row"><input id="tracking-number" name="tracking-number" autocomplete="off" required placeholder="e.g. CNL-ABC12345"><button type="submit">Track shipment</button></div></form>
+<div id="result" class="result" aria-live="polite"><div class="result-empty">Your shipment updates will appear here.</div></div>
+<p class="fineprint">For help with a shipment, contact the sender or Copper Nugget Logistics directly. Never share payment card details or passwords to track a parcel.</p></main><footer>© <span id="year"></span> Copper Nugget Logistics</footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="config.js"></script><script src="app.js"></script></body></html>
